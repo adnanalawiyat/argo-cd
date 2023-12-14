@@ -14,6 +14,7 @@ const (
 	// DefaultSSOLocalPort is the localhost port to listen on for the temporary web server performing
 	// the OAuth2 login flow.
 	DefaultSSOLocalPort = 8085
+	DefaultSSORedirectUrl = "http://localhost"
 )
 
 // PrintResource prints a single resource in YAML or JSON format to stdout according to the output format
